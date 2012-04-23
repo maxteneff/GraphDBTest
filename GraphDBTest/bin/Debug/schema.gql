@@ -1,0 +1,1 @@
+CREATE VERTEX TYPE User Attributes (String Name, Int64 Age, Set<User> Friends)

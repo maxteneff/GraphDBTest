@@ -1,0 +1,27 @@
+19.04.2012 17:23:01 SEVERE: Exception thrown: System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.String.System.IConvertible.ToDouble(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType)
+   at sones.GraphDB.Manager.BaseGraph.BaseGraphStorageManager.GetDefaultValue(IVertex myPropertyVertex, Type myPropertyType) in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\Manager\BaseGraph\BaseGraphStorageManager.cs:line 877
+   at sones.GraphDB.Manager.BaseGraph.BaseGraphStorageManager.CreatePropertyDefinition(IVertex myVertex, IBaseType myDefiningType) in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\Manager\BaseGraph\BaseGraphStorageManager.cs:line 284
+   at sones.GraphDB.Manager.BaseGraph.BaseGraphStorageManager.<>c__DisplayClass26.<GetPropertiesFromFS>b__25(IVertex x) in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\Manager\BaseGraph\BaseGraphStorageManager.cs:line 971
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   at sones.GraphDB.TypeManagement.EdgeType.RetrieveAttributes() in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\TypeManagement\EdgeType.cs:line 68
+   at sones.GraphDB.TypeManagement.BaseType.GetAttributesPrivate() in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\TypeManagement\BaseType.cs:line 395
+   at sones.GraphDB.TypeManagement.BaseType.GetAttributeDefinitions(Boolean myIncludeAncestorDefinitions) in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\TypeManagement\BaseType.cs:line 186
+   at sones.Plugins.SonesGQL.XMLBulkImport.XMLBulkImportPlugin.<ConvertEdgeTypes>b__20(IEdgeType _)
+   at System.Linq.Enumerable.<SelectManyIterator>d__14`2.MoveNext()
+   at System.Linq.Enumerable.<DistinctIterator>d__81`1.MoveNext()
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at sones.Plugins.SonesGQL.XMLBulkImport.XMLBulkImportPlugin.ConvertEdgeTypes(IRequestStatistics myRequestStatistics, IEnumerable`1 myEdgeTypes)
+   at sones.GraphDB.Request.GetEdgeType.PipelineableGetAllEdgeTypesRequest.GenerateRequestResult[TResult](GetAllEdgeTypesResultConverter`1 myOutputconverter) in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\Request\GetEdgeType\PipelineableGetAllEdgeTypesRequest.cs:line 103
+   at sones.GraphDB.SonesGraphDB.GetAllEdgeTypes[TResult](SecurityToken mySecurityToken, Int64 myTransactionToken, RequestGetAllEdgeTypes myRequestGetEdgeType, GetAllEdgeTypesResultConverter`1 myOutputconverter) in d:\Projects\SonesDB_ALL\sones\GraphDB\Implementations\SonesGraphDB\SonesGraphDB.cs:line 485
+   at sones.Plugins.SonesGQL.XMLBulkImport.XMLBulkImportPlugin.GetVertexTypes()
+   at sones.Plugins.SonesGQL.XMLBulkImport.XMLBulkImportPlugin.ExecuteBulkInsert(XmlReader readerBulkInsert)
+   at sones.Plugins.SonesGQL.XMLBulkImport.XMLBulkImportPlugin.FillFilesystems()
+19.04.2012 17:23:01 INFO: filesystems filled.
+19.04.2012 17:23:01 INFO: Import finished.

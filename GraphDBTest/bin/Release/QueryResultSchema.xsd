@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QueryResultSchema"
+    targetNamespace="http://sones.com/QueryResultSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://sones.com/QueryResultSchema.xsd"
+    xmlns:mstns="http://sones.com/QueryResultSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  
+  <xs:element name="Query">
+    <xs:complexType>
+      <xs:attribute name = "Language"      type ="xs:string" use ="required"/>
+      <xs:attribute name = "Value"         type ="xs:string" use ="required"/>
+      <xs:attribute name = "ResultType"    type ="xs:string" use ="required"/>
+      <xs:attribute name = "Error"         type ="xs:string" use ="optional"/>
+      <xs:attribute name = "Duration"      type ="xs:unsignedLong" use ="required"/>
+      <xs:attribute name = "VerticesCount" type ="xs:long" use ="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Name">    
+    <xs:complexType>
+      <xs:attribute name ="Name" type="xs:string" use="required"/>
+      <xs:attribute name ="IsHyperEdge" type="xs:boolean" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name ="EdgeView" abstract="1">
+    <xs:sequence>
+      <xs:element name ="Name" type="xs:string" maxOccurs="1" minOccurs="0"/>
+      <xs:element name ="Properties">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name ="Property" type ="mstns:Property" maxOccurs ="unbounded" minOccurs ="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name ="HyperEdgeView">
+    <xs:complexContent>
+      <xs:extension base="EdgeView" >
+        <xs:sequence>
+          <xs:element name ="SingleEdge" type ="mstns:SingleEdgeView" maxOccurs ="unbounded" minOccurs ="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="SingleEdgeView">
+    <xs:complexContent>
+      <xs:extension base="EdgeView">
+        <xs:sequence minOccurs="1" maxOccurs="1">
+          <xs:element name ="TargetVertex" type ="mstns:VertexView" maxOccurs="1" minOccurs="1"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+ 
+  <xs:complexType name="Property">
+    <xs:sequence>
+      <xs:element name ="ID" type ="xs:string"/>
+      <xs:element name ="Type" type ="xs:string"/>
+      <xs:element name ="Value" type ="xs:string" maxOccurs="1" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="VertexView">        
+      <xs:sequence>
+        <xs:element name="Properties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name ="Property" type ="mstns:Property" maxOccurs ="unbounded" minOccurs ="0"/>
+            </xs:sequence>
+          </xs:complexType>        
+        </xs:element>
+        <xs:element name="BinaryProperties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name ="BinaryProperty"  type ="mstns:BinaryData" maxOccurs ="unbounded" minOccurs ="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name ="Edges">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name ="Edge" type ="mstns:EdgeView" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>    
+  </xs:complexType>
+
+  <xs:complexType name="BinaryData">
+    <xs:sequence>
+      <xs:element name ="ID" type ="xs:string"/>
+      <xs:element name ="Content" type ="xs:hexBinary"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  
+  <xs:element name="Result">    
+    <xs:complexType>      
+      <xs:sequence>        
+        <xs:element ref ="Query" />
+        <xs:element name="VertexViews">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name ="VertexView" type ="mstns:VertexView" maxOccurs ="unbounded" minOccurs ="0"/>
+            </xs:sequence>
+          </xs:complexType>            
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name ="Version" type ="xs:string"/>
+    </xs:complexType>
+  </xs:element>  
+  
+</xs:schema>

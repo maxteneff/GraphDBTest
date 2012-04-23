@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C153BC4-20CD-4FEB-8A69-470A608769CA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphDBTest</RootNamespace>
+    <AssemblyName>GraphDBTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Arithmetics">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\Arithmetics.dll</HintPath>
+    </Reference>
+    <Reference Include="BinaryStreamStructure">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\BinaryStreamStructure.dll</HintPath>
+    </Reference>
+    <Reference Include="CollectionWrapper">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\CollectionWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Commons">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="DataStructures">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\DataStructures.dll</HintPath>
+    </Reference>
+    <Reference Include="Dijkstra, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Dijkstra.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscordianDate">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\DiscordianDate.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorHandling">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\ErrorHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="GQLAggregates">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\GQLAggregates.dll</HintPath>
+    </Reference>
+    <Reference Include="GQLFunctions">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\GQLFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="GraphDBExport">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\GraphDBExport.dll</HintPath>
+    </Reference>
+    <Reference Include="GraphDBImport">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\GraphDBImport.dll</HintPath>
+    </Reference>
+    <Reference Include="GraphDSPluginManager">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\GraphDSPluginManager.dll</HintPath>
+    </Reference>
+    <Reference Include="GraphDSServer">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\GraphDSServer.dll</HintPath>
+    </Reference>
+    <Reference Include="IDrainPipe">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IDrainPipe.dll</HintPath>
+    </Reference>
+    <Reference Include="IGQLStatementPlugin">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGQLStatementPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphDB">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphDB.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphDBExport">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphDBExport.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphDBExtensions">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphDBExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphDBImport">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphDBImport.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphDS">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphDS.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphDSServer">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphDSServer.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphFS">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphFS.dll</HintPath>
+    </Reference>
+    <Reference Include="IGraphQL">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IGraphQL.dll</HintPath>
+    </Reference>
+    <Reference Include="InMemoryNonRevisioned">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\InMemoryNonRevisioned.dll</HintPath>
+    </Reference>
+    <Reference Include="IOInterface">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IOInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="IPluginable">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IPluginable.dll</HintPath>
+    </Reference>
+    <Reference Include="Irony">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\Irony.dll</HintPath>
+    </Reference>
+    <Reference Include="IService">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IService.dll</HintPath>
+    </Reference>
+    <Reference Include="ISonesGQLAggregate">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\ISonesGQLAggregate.dll</HintPath>
+    </Reference>
+    <Reference Include="ISonesGQLFunction">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\ISonesGQLFunction.dll</HintPath>
+    </Reference>
+    <Reference Include="ISonesIndex">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\ISonesIndex.dll</HintPath>
+    </Reference>
+    <Reference Include="IUsageDataCollector">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\IUsageDataCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="LanguageExtensions">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\LanguageExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Neighbours, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Neighbours.dll</HintPath>
+    </Reference>
+    <Reference Include="NewFastSerializer">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\NewFastSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="PluginDefinition">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\PluginDefinition.dll</HintPath>
+    </Reference>
+    <Reference Include="PropertyHyperGraph">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\PropertyHyperGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="QueryResult">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\QueryResult.dll</HintPath>
+    </Reference>
+    <Reference Include="Settings">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="ShortestPathAlgorithms, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ShortestPathAlgorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="SlimLogFramework, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SlimLogFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="SonesGraphDB">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\SonesGraphDB.dll</HintPath>
+    </Reference>
+    <Reference Include="SonesGraphQueryLanguage">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\SonesGraphQueryLanguage.dll</HintPath>
+    </Reference>
+    <Reference Include="SonesIndices">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\SonesIndices.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UserdefinedDataType">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\UserdefinedDataType.dll</HintPath>
+    </Reference>
+    <Reference Include="VersionedPluginManager">
+      <HintPath>D:\SonesDB_ALL\sones\Applications\TagExample\bin\Debug\VersionedPluginManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

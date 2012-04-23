@@ -1,0 +1,4 @@
+Time of reading: 00:00:01.7491000
+Time of inserting: 00:02:13.7416496
+Time of selecting: 00:00:00.0030002
+Full time: 00:02:15.4907496

@@ -1,0 +1,371 @@
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDBTest.exe
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDBTest.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Arithmetics.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\BinaryStreamStructure.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\CollectionWrapper.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Commons.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\DataStructures.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\DiscordianDate.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ErrorHandling.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GQLAggregates.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GQLFunctions.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDBExport.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDBImport.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDSPluginManager.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDSServer.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IDrainPipe.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGQLStatementPlugin.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDB.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDBExport.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDBExtensions.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDBImport.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDS.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDSServer.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphFS.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphQL.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\InMemoryNonRevisioned.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IOInterface.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IPluginable.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Irony.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IService.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ISonesGQLAggregate.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ISonesGQLFunction.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ISonesIndex.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IUsageDataCollector.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\LanguageExtensions.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\NewFastSerializer.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\PluginDefinition.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\PropertyHyperGraph.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\QueryResult.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Settings.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\SonesGraphDB.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\SonesIndices.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\UserdefinedDataType.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\VersionedPluginManager.dll
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Arithmetics.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\BinaryStreamStructure.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\CollectionWrapper.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Commons.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\DataStructures.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\DiscordianDate.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ErrorHandling.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GQLAggregates.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GQLFunctions.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDBExport.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDBImport.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDSPluginManager.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\GraphDSServer.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IDrainPipe.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGQLStatementPlugin.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDB.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDBExport.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDBExtensions.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDBImport.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDS.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphDSServer.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphFS.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IGraphQL.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\InMemoryNonRevisioned.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IOInterface.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IPluginable.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Irony.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IService.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ISonesGQLAggregate.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ISonesGQLFunction.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\ISonesIndex.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\IUsageDataCollector.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\LanguageExtensions.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\NewFastSerializer.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\PluginDefinition.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\PropertyHyperGraph.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\QueryResult.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\Settings.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\SonesGraphDB.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\SonesIndices.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\UserdefinedDataType.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\bin\Debug\VersionedPluginManager.pdb
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\obj\x86\Debug\GraphDBTest.exe
+C:\Users\Max\AppData\Local\Temporary Projects\GraphDBTest\obj\x86\Debug\GraphDBTest.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\obj\x86\Debug\GraphDBTest.exe
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\obj\x86\Debug\GraphDBTest.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBTest.exe
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBTest.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Arithmetics.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\BinaryStreamStructure.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\CollectionWrapper.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Commons.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\DataStructures.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\DiscordianDate.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ErrorHandling.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GQLAggregates.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GQLFunctions.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBExport.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBImport.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDSPluginManager.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDSServer.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IDrainPipe.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGQLStatementPlugin.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDB.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBExport.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBExtensions.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBImport.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDS.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDSServer.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphFS.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphQL.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\InMemoryNonRevisioned.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IOInterface.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IPluginable.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Irony.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IService.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesGQLAggregate.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesGQLFunction.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesIndex.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IUsageDataCollector.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\LanguageExtensions.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\NewFastSerializer.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\PluginDefinition.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\PropertyHyperGraph.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\QueryResult.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Settings.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesGraphDB.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesIndices.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\UserdefinedDataType.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\VersionedPluginManager.dll
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Arithmetics.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\BinaryStreamStructure.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\CollectionWrapper.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Commons.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\DataStructures.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\DiscordianDate.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ErrorHandling.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GQLAggregates.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GQLFunctions.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBExport.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBImport.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDSPluginManager.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDSServer.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IDrainPipe.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGQLStatementPlugin.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDB.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBExport.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBExtensions.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBImport.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDS.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDSServer.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphFS.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphQL.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\InMemoryNonRevisioned.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IOInterface.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IPluginable.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Irony.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IService.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesGQLAggregate.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesGQLFunction.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesIndex.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\IUsageDataCollector.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\LanguageExtensions.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\NewFastSerializer.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\PluginDefinition.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\PropertyHyperGraph.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\QueryResult.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\Settings.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesGraphDB.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesIndices.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\UserdefinedDataType.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\bin\Debug\VersionedPluginManager.pdb
+C:\Users\Max\documents\visual studio 2010\Projects\GraphDBTest\GraphDBTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\GraphDBTest\GraphDBTest\obj\x86\Debug\GraphDBTest.exe
+D:\Projects\GraphDBTest\GraphDBTest\obj\x86\Debug\GraphDBTest.pdb
+D:\Projects\GraphDBTest\GraphDBTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBTest.exe
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBTest.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\Arithmetics.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\BinaryStreamStructure.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\CollectionWrapper.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\Commons.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\DataStructures.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\DiscordianDate.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\ErrorHandling.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GQLAggregates.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GQLFunctions.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBExport.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDBImport.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDSPluginManager.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\GraphDSServer.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IDrainPipe.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGQLStatementPlugin.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDB.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBExport.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBExtensions.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDBImport.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDS.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphDSServer.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphFS.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IGraphQL.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\InMemoryNonRevisioned.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IOInterface.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IPluginable.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\Irony.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IService.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesGQLAggregate.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesGQLFunction.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\ISonesIndex.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\IUsageDataCollector.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\LanguageExtensions.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\NewFastSerializer.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\PluginDefinition.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\PropertyHyperGraph.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\QueryResult.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\Settings.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesGraphDB.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\SonesIndices.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\UserdefinedDataType.pdb
+D:\Projects\GraphDBTest\GraphDBTest\bin\Debug\VersionedPluginManager.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\obj\x86\Debug\GraphDBTest.exe
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\obj\x86\Debug\GraphDBTest.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBTest.exe
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBTest.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Arithmetics.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\BinaryStreamStructure.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\CollectionWrapper.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Commons.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\DataStructures.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\DiscordianDate.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ErrorHandling.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GQLAggregates.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GQLFunctions.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBExport.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBImport.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDSPluginManager.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDSServer.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IDrainPipe.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGQLStatementPlugin.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDB.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBExport.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBExtensions.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBImport.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDS.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDSServer.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphFS.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphQL.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\InMemoryNonRevisioned.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IOInterface.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IPluginable.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Irony.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IService.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesGQLAggregate.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesGQLFunction.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesIndex.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IUsageDataCollector.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\LanguageExtensions.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\NewFastSerializer.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\PluginDefinition.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\PropertyHyperGraph.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\QueryResult.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Settings.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesGraphDB.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesIndices.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\UserdefinedDataType.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\VersionedPluginManager.dll
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Arithmetics.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\BinaryStreamStructure.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\CollectionWrapper.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Commons.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\DataStructures.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\DiscordianDate.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ErrorHandling.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GQLAggregates.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GQLFunctions.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBExport.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBImport.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDSPluginManager.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDSServer.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IDrainPipe.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGQLStatementPlugin.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDB.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBExport.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBExtensions.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBImport.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDS.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDSServer.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphFS.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphQL.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\InMemoryNonRevisioned.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IOInterface.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IPluginable.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Irony.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IService.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesGQLAggregate.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesGQLFunction.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesIndex.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IUsageDataCollector.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\LanguageExtensions.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\NewFastSerializer.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\PluginDefinition.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\PropertyHyperGraph.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\QueryResult.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Settings.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesGraphDB.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesIndices.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\UserdefinedDataType.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\bin\Debug\VersionedPluginManager.pdb
+c:\Users\Max\Documents\Visual Studio 2010\Projects\GraphDBTest2\GraphDBTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\GraphDBTest2\GraphDBTest\obj\x86\Debug\GraphDBTest.exe
+D:\Projects\GraphDBTest2\GraphDBTest\obj\x86\Debug\GraphDBTest.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBTest.exe
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBTest.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Arithmetics.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\BinaryStreamStructure.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\CollectionWrapper.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Commons.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\DataStructures.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\DiscordianDate.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ErrorHandling.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GQLAggregates.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GQLFunctions.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBExport.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDBImport.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDSPluginManager.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\GraphDSServer.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IDrainPipe.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGQLStatementPlugin.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDB.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBExport.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBExtensions.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDBImport.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDS.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphDSServer.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphFS.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IGraphQL.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\InMemoryNonRevisioned.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IOInterface.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IPluginable.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Irony.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IService.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesGQLAggregate.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesGQLFunction.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ISonesIndex.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\IUsageDataCollector.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\LanguageExtensions.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\NewFastSerializer.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\PluginDefinition.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\PropertyHyperGraph.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\QueryResult.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\Settings.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesGraphDB.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesGraphQueryLanguage.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SonesIndices.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\UserdefinedDataType.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\VersionedPluginManager.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\ShortestPathAlgorithms.pdb
+D:\Projects\GraphDBTest2\GraphDBTest\bin\Debug\SlimLogFramework.pdb
