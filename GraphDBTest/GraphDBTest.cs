@@ -93,6 +93,7 @@ namespace GraphDBTest
                     //DateTime date = DateTime.Parse(input_edge[2]);
 
                     edge_list[a].Add( new KeyValuePair<long, Int32>(b, c) );
+                    edge_list[b].Add(new KeyValuePair<long, Int32>(a, c));
                 }
             }
         }
@@ -235,34 +236,61 @@ namespace GraphDBTest
             //Console.WriteLine("Full time: {0}", DateTime.Now - full_time);
         }
 
+        private void PrintNeighbours(IQueryResult qres)
+        {
+            DateTime dt = DateTime.Now;
+
+            StreamWriter sw = new StreamWriter("netData_output.txt");
+            foreach (var vert in qres.Vertices)
+            {
+                sw.Write("Neighbours of {0}: ", vert.GetPropertyAsString("Name"));
+                var neighbours_list = vert.GetProperty<List<VertexView>>("friends");
+                if (neighbours_list != null)
+                {
+                    sw.WriteLine("Count: {0}", neighbours_list.Count);
+                    foreach (var neighbour in neighbours_list)
+                        sw.Write("{0} ", neighbour.GetPropertyAsString("VertexID"));
+                }
+                else
+                    sw.Write("None");
+                sw.WriteLine();
+            }
+            sw.Close();
+
+            Console.WriteLine("Time of printing to file: {0}", DateTime.Now - dt);
+        }
+
         private void Neighbours()
         {
             DateTime dt = DateTime.Now;
+            //var qres = GraphDSServer.Query(SecToken, TransactionID,
+            //                                "FROM User SELECT Name, friends.neighbours(2)",
+            //                                SonesGQLConstants.GQL);
+
+            //Console.WriteLine("Time of finding neighbours: {0}", DateTime.Now - dt);
+            //PrintNeighbours(qres);
+
+            //dt = DateTime.Now;
+
+            //var qres = GraphDSServer.Query(SecToken, TransactionID,
+            //                    "FROM User SELECT Name, friends.neighbours(5)",
+            //                    SonesGQLConstants.GQL);
+
+            //Console.WriteLine("Time of finding neighbours: {0}", DateTime.Now - dt);
+            //PrintNeighbours(qres);
+
+            //dt = DateTime.Now;
+
             var qres = GraphDSServer.Query(SecToken, TransactionID,
-                                            "FROM User SELECT Name, friends.neighbours(0)",
-                                            SonesGQLConstants.GQL);
+                    "FROM User SELECT Name, friends.neighbours(5)",
+                    SonesGQLConstants.GQL);
+
+            CheckResult(qres);
 
             Console.WriteLine("Time of finding neighbours: {0}", DateTime.Now - dt);
-            dt = DateTime.Now;
+            PrintNeighbours(qres);
 
-            //StreamWriter sw = new StreamWriter("netData_output.txt");
-            //foreach (var vert in qres.Vertices)
-            //{
-            //    sw.Write("Neighbours of {0}: ", vert.GetPropertyAsString("Name"));
-            //    var neighbours_list = vert.GetProperty<List<VertexView>>("friends");
-            //    if (neighbours_list != null)
-            //    {
-            //        sw.WriteLine("Count: {0}", neighbours_list.Count);
-            //        foreach (var neighbour in neighbours_list)
-            //            sw.Write("{0} ", neighbour.GetPropertyAsString("VertexID"));
-            //    }
-            //    else
-            //        sw.Write("None");
-            //    sw.WriteLine();
-            //}
-            //sw.Close();
-
-            Console.WriteLine("Time of printing to file: {0}", DateTime.Now - dt);
+            //dt = DateTime.Now;
         }
 
         private void FastImport()
