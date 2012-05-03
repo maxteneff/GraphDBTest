@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using sones.GraphDB;
 using sones.GraphDB.Request;
@@ -15,6 +16,27 @@ using sones.Library.VersionedPluginManager;
 
 namespace GraphDBTest
 {
+    /// <summary>
+    /// Сравнение двух VertexView. Осуществляется по принципу равенства идентификаторов.
+    /// </summary>
+    class VertexViewComparer : EqualityComparer<VertexView>
+    {
+        public override bool Equals(object obj)
+        {
+            var other = obj as VertexView;
+            return Equals(this, other);
+        }
+        public override bool Equals(VertexView x, VertexView y)
+        {
+            return x.GetProperty<int>("VertexID") == y.GetProperty<int>("VertexID");
+        }
+
+        public override int GetHashCode(VertexView obj)
+        {
+            return base.GetHashCode();
+        }
+    }
+
     class GraphDBTest
     {
         //Экземпляр сервера базы даных
@@ -84,7 +106,7 @@ namespace GraphDBTest
         /// дальше считываются ребра в список смежности
         /// </summary>
         /// <param name="path">Путь к файлу</param>
-        /// <param name="backward">Делать ли обратные ребра</param>
+        /// <param name="backward">Делать ли обратные ребра. По умолчанию false</param>
         private void ReadFile(string path, bool backward = false)
         {
             if (!File.Exists(path))
@@ -114,7 +136,7 @@ namespace GraphDBTest
         }
 
         /// <summary>
-        /// Анализирует результат запроса в базу данных. Показывает ошибки, которые были во время запроса.
+        /// Анализирует результат запроса GQL. Показывает ошибки, которые были во время запроса.
         /// </summary>
         /// <param name="myQueryResult">Результат запроса</param>
         private bool CheckResult(IQueryResult myQueryResult)
@@ -235,7 +257,47 @@ namespace GraphDBTest
             //dt = DateTime.Now;
         }
 
-        private void UnionOfPairIntersections(int depth)
+        private HashSet<KeyValuePair<VertexView, VertexView>> GetEdgesfromHashSet(HashSet<VertexView> vertices_set)
+        {
+            HashSet<KeyValuePair<VertexView, VertexView>> edges = new HashSet<KeyValuePair<VertexView, VertexView>>();
+            if (vertices_set == null || vertices_set.Count == 0)
+                return edges;
+
+            foreach (VertexView current_vertex in vertices_set)
+            {
+
+                var full_current_vertex = GraphDSServer.GetVertex<IVertex>(SecToken,
+                                                   TransactionID,
+                                                   new RequestGetVertex("User", current_vertex.GetProperty<int>("VertexID")),
+                                                   (statistics, Vertices) => Vertices);
+
+                var hyperedges = full_current_vertex.GetAllOutgoingHyperEdges();
+                if (hyperedges == null)
+                    continue;
+                foreach (var hyper in hyperedges)
+                {
+                    var singleedges = hyper.Item2.GetAllEdges();
+                    if (singleedges == null)
+                        continue;
+                    
+                    foreach (var single in singleedges)
+                    {
+                        var target_vertex = single.GetTargetVertex();
+                        Dictionary<String, Object> properties = new Dictionary<String, Object>();
+                        properties.Add("VertexID", (int)target_vertex.VertexID);
+                        VertexView target_vertexview = new VertexView(properties, null);
+                        var current_edge = new KeyValuePair<VertexView, VertexView>(current_vertex, target_vertexview);
+
+                        if (vertices_set.Contains(target_vertexview) && !edges.Contains(current_edge))
+                            edges.Add(current_edge);
+                    }
+                }
+            }
+
+            return edges;
+        }
+
+        private HashSet<VertexView> UnionOfPairIntersections(int depth)
         {
             DateTime dt = DateTime.Now;
             var qres = GraphDSServer.Query(SecToken, TransactionID,
@@ -243,65 +305,54 @@ namespace GraphDBTest
                     SonesGQLConstants.GQL);
             CheckResult(qres);
 
-            var vertices = qres.Vertices;
+            List<IVertexView> vertices = new List<IVertexView>(qres.Vertices);
 
             string path = "UnionofPairs_output.txt";
             StreamWriter sw = new StreamWriter(path);
-            HashSet<int> answer = new HashSet<int>();
-            foreach (var vertex1 in vertices)
+            if (!File.Exists(path))
+                File.Create(path);
+
+            HashSet<VertexView> answer = new HashSet<VertexView>();
+            for (int vertex1 = 0; vertex1 < vertices.Count - 1; ++vertex1)
             {
-                foreach (var vertex2 in vertices)
+                for (int vertex2 = vertex1 + 1; vertex2 < vertices.Count; ++vertex2)
                 {
+                    VertexViewComparer vertex_comparer = new VertexViewComparer();
+                    HashSet<VertexView> neighbours_set1, neighbours_set2;
 
-                    Dictionary<int, int> intersection = new Dictionary<int, int>();
-                    
-                    var neighbours_list = vertex1.GetProperty<List<VertexView>>("friends");
-                    if (neighbours_list != null)
+                    var neighbours_list1 = vertices[vertex1].GetProperty<List<VertexView>>("friends");
+                    if (neighbours_list1 != null)
+                        neighbours_set1 = new HashSet<VertexView>(neighbours_list1, vertex_comparer);
+                    else
+                        neighbours_set1 = new HashSet<VertexView>(vertex_comparer);
+
+                    var neighbours_list2 = vertices[vertex2].GetProperty<List<VertexView>>("friends");
+                    if (neighbours_list2 != null)
+                        neighbours_set2 = new HashSet<VertexView>(neighbours_list2, vertex_comparer);
+                    else
+                        neighbours_set2 = new HashSet<VertexView>(vertex_comparer);
+
+                    neighbours_set1.IntersectWith(neighbours_set2);
+
+                    Console.WriteLine("Intersection of " + vertices[vertex1].GetPropertyAsString("Name") + " " + vertices[vertex2].GetPropertyAsString("Name"));
+
+                    foreach (var current_vertex in neighbours_set1)
                     {
-                        foreach (var neighbour in neighbours_list)
-                        {
-                            int vert_id = neighbour.GetProperty<int>("VertexID");
-                            if (intersection.ContainsKey(vert_id))
-                                intersection[vert_id]++;
-                            else
-                                intersection.Add(vert_id, 1);
-                        }
-                    }
-                    neighbours_list = vertex2.GetProperty<List<VertexView>>("friends");
-                    if (neighbours_list != null)
-                    {
-                        foreach (var neighbour in neighbours_list)
-                        {
-                            int vert_id = neighbour.GetProperty<int>("VertexID");
-                            if (intersection.ContainsKey(vert_id))
-                                intersection[vert_id]++;
-                            else
-                                intersection.Add(vert_id, 1);
-                        }
+                        if (!answer.Contains(current_vertex))
+                            answer.Add(current_vertex);
                     }
 
-                    
-                    if (!File.Exists(path))
-                        File.Create(path);
-                    
-                    Console.WriteLine("Intersection of " + vertex1.GetPropertyAsString("Name") + " " + vertex2.GetPropertyAsString("Name"));
-                    
-                    foreach (var pair in intersection)
-                    {
-                        if (pair.Value >= 2)
-                            if (!answer.Contains(pair.Key))
-                                answer.Add(pair.Key);
-                    }
-                    
                 }
 
             }
 
-            sw.WriteLine("Count: " + answer.Count);
-            foreach (int id in answer)
-                sw.Write(id.ToString() + " ");
-            sw.Close();
-            Console.WriteLine("Time of finding and printing intersection: {0}", DateTime.Now - dt);
+            //sw.WriteLine("Count: " + answer.Count);
+            //foreach (int id in answer)
+            //    sw.Write(id.ToString() + " ");
+            //sw.Close();
+            Console.WriteLine("Time of finding intersection: {0}", DateTime.Now - dt);
+
+            return answer;
         }
 
         static void Main(string[] args)
@@ -311,7 +362,10 @@ namespace GraphDBTest
             DB.Run();
 
             //DB.Neighbours();
-            DB.UnionOfPairIntersections(2);
+
+            var union = DB.UnionOfPairIntersections(2);
+            var edges = DB.GetEdgesfromHashSet(union);
+
         }
 
         /// <summary>
